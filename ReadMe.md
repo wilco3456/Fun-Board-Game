@@ -152,5 +152,156 @@ Its Your Turn!
 0110000030
 0000022003
 0000020000
+-----------------------------------------------------------------------------
+
+...
+
+-----------------------------------------------------------------------------
+
+Player 1:
+Do you wish to place an Influence Card (Y/N)?
+Y
+Which Influence Card do you wish to use (DOUBLE (D)/REPLACEMENT (R)/FREEDOM (F)/CANCEL (C))?
+Available Deck:  DOUBLE,  REPLACEMENT,  FREEDOM,  CANCEL ||
+F
+Place your first move:
+Place X (0-5):
+2
+Place Y (0-9):
+8
+1122123030
+1111233330
+1122333310
+0111122333
+0001222233
+0001222230
+
+Its Player 2's Turn!
+Waiting ...
+
+1122123030
+1111233330
+1122332310
+0111122333
+0001222233
+0001222230
+-----------------------------------------------------------------------------
+
+Its Player 3's Turn!
+Waiting ...
+
+1122123030
+1111233330
+1122332313
+0111122333
+0001222233
+0001222230
+-----------------------------------------------------------------------------
+
+Its Your Turn!
+
+1122123030
+1111233330
+1122332313
+0111122333
+0001222233
+0001222230
+
+Player 1:
+Do you wish to place an Influence Card (Y/N)?
+N
+Place your first move:
+Place X (0-5):
+2
+Place Y (0-9):
+2
+Invalid Move, try again!
+--------------------------------------------------------------------------------                                                         
+
+Player 1:
+Do you wish to place an Influence Card (Y/N)?
+Y
+Which Influence Card do you wish to use (DOUBLE (D)/REPLACEMENT (R)/FREEDOM (F)/ CANCEL (C))?
+Available Deck:  DOUBLE,  REPLACEMENT,  CANCEL ||
+D
+Place your first move:
+Place X (0-5):
+1
+Place Y (0-9):
+9
+Place your second move:
+Place X (0-5):
+0
+Place Y (0-9):
+9
+1122123031
+1111233331
+1122332313
+0111122333
+0001222233
+0001222230
+
+Its Player 2's Turn!
+Waiting ...
+
+Its Player 3's Turn!
+Waiting ...
+
+1122123331
+1111233331
+1122332313
+0111122333
+0001222233
+0001222230
+-----------------------------------------------------------------------------
+
+Its Your Turn!
+
+1122123331
+1111233331
+1122332313
+0111122333
+0001222233
+0001222230
+
+-----------------------------------------------------------------------------
+
+...
+
+-----------------------------------------------------------------------------
+
+Player 1:
+Do you wish to place an Influence Card (Y/N)?
+N
+Place your first move:
+Place X (0-5):
+5
+Place Y (0-9):
+1
+1122123331
+1111333331
+1122332313
+1111122333
+1031122233
+1131222233
+
+Only One Move Left On The Board!
+Removing Double Cards!
+Its Player 2's Turn!
+Waiting ...
+
+Its Player 3's Turn!
+Waiting ...
+
+1122123331
+1111333331
+1122332313
+1111122333
+1331122233
+1131222233
+-----------------------------------------------------------------------------
+
+#############################################################################
+YOU'VE WON THE GAME!
 
 </pre>
