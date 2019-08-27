@@ -23,8 +23,7 @@ The task is to implement a client-server Java application for a multi-player boa
 ![state07](/Images/state07.gif)
 
 ## Platform Recommendation:
-* This program has been run on Windows 10.0.15063 build 15063 and Mac OS X, developed using Java version 12.0.2, Intellij version 2018.3.5
-Other systems have not been tested, and it is advised to have caution with untested OS.
+* This program has been run on Windows 10.0.15063 build 15063 and Mac OS X, developed using Java version 12.0.2, Intellij version 2018.3.5 Other systems have not been tested, and it is advised to have caution with untested OS.
 
 ## Note:
 * This work was compiled in Intellij. To compile it for use on the same service, copy and paste all java files into an Intelij src folder, then add to the Java Library all files except Board_Game.jar, that is the executable file.
@@ -34,12 +33,124 @@ Other systems have not been tested, and it is advised to have caution with untes
 * Then type: java -jar Board_Game.jar, which should run the program.
 
 ## How to use the Program:
-
-
+* Firstly, you will be prompted by the server on how many players you wish to play with:
+ * Choose a number between 0 – 5 (in the command line).
+* Next, The server will ask you how many bots you wish to play with:
+ * Choose a number within the bounds given (in the command line). 
+* Start-up the putty clients:
+ * Port: 8888
+ * Host Name: localhost
+ * Connection Type: Raw 
+* Press the ENTER key on each Putty client window.
+* Now, Play the game! (User interaction depends on whether you choose to use only BotClients).  
+**NOTE: Refer to the *Explanation Guide* to understand the rules of the game**
 
 ## Example Gameplay
 <pre>
 C\...\RPN_Evaluator_jar>java -jar Board_Game.jar
 
+Press ENTER To Join The Game!
+
+Welcome Player 1!
+Its Your Turn!
+
+0000000000
+0000000000
+0000000000
+0100000030
+0000020000
+0000000000
+
+Player 1:
+Do you wish to place an Influence Card (Y/N)?
+N
+Place your first move:
+Place X (0-5):
+3
+Place Y (0-9):
+2
+0000000000
+0000000000
+0000000000
+0110000030
+0000020000
+0000000000
+
+Its Player 2's Turn!
+Waiting ...
+
+0000000000
+0000000000
+0000000000
+0110000030
+0000022000
+0000000000
+-----------------------------------------------------------------------------
+
+Its Player 3's Turn!
+Waiting ...
+
+0000000000
+0000000000
+0000000000
+0110000030
+0000022003
+0000000000
+-----------------------------------------------------------------------------
+
+Its Your Turn!
+
+0000000000
+0000000000
+0000000000
+0110000030
+0000022003
+0000000000
+
+Player 1:
+Do you wish to place an Influence Card (Y/N)?
+N
+Place your first move:
+Place X (0-5):
+2
+Place Y (0-9):
+1
+0000000000
+0000000000
+0100000000
+0110000030
+0000022003
+0000000000
+
+Its Player 2's Turn!
+Waiting ...
+
+0000000000
+0000000000
+0100000000
+0110000030
+0000022003
+0000020000
+-----------------------------------------------------------------------------
+
+Its Player 3's Turn!
+Waiting ...
+
+0000000000
+0000000000
+0100000300
+0110000030
+0000022003
+0000020000
+-----------------------------------------------------------------------------
+
+Its Your Turn!
+
+0000000000
+0000000000
+0100000300
+0110000030
+0000022003
+0000020000
 
 </pre>
