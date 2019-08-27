@@ -7,7 +7,8 @@ The task is to implement a client-server Java application for a multi-player boa
 * The board has 6 rows and 10 columns.  Initially, the server places one stone of each 'colour' on the board, randomly picking the locations.  
 ![state01](/Images/state01.png)
 * The players make their 'moves' in turn.  The order of the players is the same as the order in which the clients connect to the game server.  In the demos below, we will assume that the first player to connect was 'R', followed by 'G', followed by 'B'.
-* In each move, a player places one stone of their 'colour' on the board.  They can place a stone only on an empty cell, and only on a cell adjacent to one of their stones.  Below is an example of the first few steps of the game.
+* In each move, a player places one stone of their 'colour' on the board.  They can place a stone only on an empty cell, and only on a cell adjacent to one of their stones.  Below is an example of the first few steps of the game.  
+![state02](/Images/state01.gif)
 * Each player is given three influence cards at the beginning of the game.  A player can use any of their influence cards when making a move.  Once a card is used, it is discarded (i.e. each influence card can be used at most once by each player).  An influence card makes an exception from the previous rule:
   * Double-move card: allows the player to place two stones in one move.  (In terms of the adjacency rule, this move is interpreted as two consecutive moves.)
   * Replacement card: allows the player to place a stone even if the cell is not empty.  The adjacency rule still applies.
