@@ -44,6 +44,7 @@ The task is to implement a client-server Java application for a multi-player boa
 * Press the ENTER key on each Putty client window.
 * Now, Play the game! (User interaction depends on whether you choose to use only BotClients).  
 **NOTE: Refer to the *Explanation Guide* to understand the rules of the game**
+* Once the game is completed Press **ENTER** on the server command line window to terminate the program
 
 ## Example Gameplay
 <pre>
