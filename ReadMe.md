@@ -4,8 +4,8 @@
 The task is to implement a client-server Java application for a multi-player board game.  Each player will be represented as a client program, and the server is a program coordinating the game.  The game is as follows.
 
 * The game is played by two to five players.  Each player is assigned a 'colour' (can be a shape or letter or anything else that would allow identification of the player; in the examples below, coloured letters 'R', 'G' and 'B' will be used).  We will say that players place stones on the board, like in the Go game.
-* The board has 6 rows and 10 columns.  Initially, the server places one stone of each 'colour' on the board, randomly picking the locations.
-![state01](/images/state01.png)
+* The board has 6 rows and 10 columns.  Initially, the server places one stone of each 'colour' on the board, randomly picking the locations.  
+![state01](/Images/state01.png)
 * The players make their 'moves' in turn.  The order of the players is the same as the order in which the clients connect to the game server.  In the demos below, we will assume that the first player to connect was 'R', followed by 'G', followed by 'B'.
 * In each move, a player places one stone of their 'colour' on the board.  They can place a stone only on an empty cell, and only on a cell adjacent to one of their stones.  Below is an example of the first few steps of the game.
 * Each player is given three influence cards at the beginning of the game.  A player can use any of their influence cards when making a move.  Once a card is used, it is discarded (i.e. each influence card can be used at most once by each player).  An influence card makes an exception from the previous rule:
