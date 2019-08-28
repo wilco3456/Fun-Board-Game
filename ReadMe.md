@@ -48,7 +48,7 @@ The task is to implement a client-server Java application for a multi-player boa
 
 ## Example Gameplay
 <pre>
-C\...\RPN_Evaluator_jar>java -jar Board_Game.jar
+C\...\Board_Game_jar>java -jar Board_Game.jar
 
 Press ENTER To Join The Game!
 
