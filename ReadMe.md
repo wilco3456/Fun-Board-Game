@@ -22,17 +22,17 @@ The task is to implement a client-server Java application for a multi-player boa
 * The winner of the game is the player with the highest number of stones on the board.  If there are several such players, the one of them who joined the game last, wins.  The demo below shows the last few moves of the game.  At the end, the scores are as follows: 'R': 21, 'G': 18, 'B': 21.  Of the two players with the highest scores, the winner is 'B' because they joined the game later than 'R'.  
 ![state07](/Images/state07.gif)
 
-## Platform Recommendation:
+## Platform Recommendation
 * This program has been run on Windows 10.0.15063 build 15063 and Mac OS X, developed using Java version 12.0.2, Intellij version 2018.3.5 Other systems have not been tested, and it is advised to have caution with untested OS.
 
-## Note:
+## Note
 * This work was compiled in Intellij. To compile it for use on the same service, copy and paste all java files into an Intelij src folder, then add to the Java Library all files except Board_Game.jar, that is the executable file.
 
-## To Start:
+## To Start
 * Open a command line window and navigate to the folder holding the program's *.jar* file.
 * Then type: java -jar Board_Game.jar, which should run the program.
 
-## How to use the Program:
+## How to use the Program
 * Firstly, you will be prompted by the server on how many players you wish to play with:
  * Choose a number between 0 – 5 (in the command line).
 * Next, The server will ask you how many bots you wish to play with:
